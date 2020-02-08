@@ -169,3 +169,18 @@ fetch是获取远程仓库，push是推送到远程仓库
 > 3. 初始化本地库
 
 要重新提交到远程库时，需要管理源授权
+
+
+#### Phpstorm继承git
+
+File -> Setting -> Version Control -> Git(设置git本地路径，默认即可)
+
+File -> Setting -> Version Control -> Github(输入账号密码登录)
+
+VCS -> Import Into Version Control -> Create Git Repository(创建git仓库，即初始化本地仓库)
+
+选择需要上传的文件，右键 -> git -> commit，
+如果是第一次上传，需要先git add
+
+VCS -> Import Into Version Control -> Share Project on Github(将本地库上传到gihub)
+输入远程库名称，选择公有私有，填写别名 填写描述（可不写）
